@@ -1,0 +1,11 @@
+<archetype>
+  <id>myproject</id>
+  <resources>
+    <resource>src/myproject/scrapy.cfg</resource>
+    <resource>src/myproject/myproject/__init__.py</resource>
+    <resource>src/myproject/myproject/items.py</resource>
+    <resource>src/myproject/myproject/pipelines.py</resource>
+    <resource>src/myproject/myproject/settings.py</resource>
+    <resource>src/myproject/myproject/spiders/__init__.py</resource>
+  </resources>
+</archetype>

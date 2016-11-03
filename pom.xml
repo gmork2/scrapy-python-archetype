@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>es.orangemarket</groupId>
+  <artifactId>scrapy-python-archetype</artifactId>
+  <version>1.0.0</version>
+  
+  <name>Archetype - scrapy-python-archetype</name>
+  <url>http://orangemarket.es</url>
+  <inceptionYear>2016</inceptionYear>
+  
+  <description>Scrapy project</description>
+  
+  <licenses>
+    <license>
+      <name>Public domain (CC0-1.0)</name>
+      <url>http://creativecommons.org/publicdomain/zero/1.0/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <scm>
+    <connection>scm:git:git://github.com/gmork2/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:gmork2/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/gmork2/${project.artifactId}/</url>
+  </scm>
+
+  <issueManagement>
+    <system>github</system>
+    <url>http://github.com/gmork2/${project.artifactId}/issues#issue/</url>
+  </issueManagement>
+  
+  <developers>
+    <developer>
+      <name>gmork2</name>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  
+  <properties>
+    <maven.test.skip>true</maven.test.skip>
+    <maven.version>3.0</maven.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <encoding>UTF-8</encoding>
+    <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+  </properties>
+  
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
+
+</project>
